@@ -1,0 +1,22 @@
+# 1. Go through each line and list each variable that is being assigned a string. For example x, binary, and y are examples of variables being assigned strings, but hilarious is not because False doesn't have "" around it.
+
+# 2. This is your list of strings, so now you just need to see which ones have strings being put inside them.
+
+# 3. Go through your list of strings, and find each one that is on the right side of a + or a %.
+
+# 4. The ones on the right of a % + are the "strings going into strings" and that's your count.
+
+
+
+
+If we list each variable that is being assigned a string we have the following variables:
+
+x
+binary
+do_not
+y
+joke_evaluation
+w
+e
+
+If we go throught the list of strings and find each one that is on the right side of a + or a %, the answer will be 5, not 4.

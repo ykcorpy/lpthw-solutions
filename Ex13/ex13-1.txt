@@ -1,0 +1,5 @@
+Line 3 "unpacks"  argv so that, rather than holding
+all these arguments, it gets assigned to four variables.
+Running the script with fewer than three arguments
+results in an error because argv doesn't have enough arguments to assign
+to the variables in the script.

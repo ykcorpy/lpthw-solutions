@@ -1,0 +1,3 @@
+"But it didn't sing."
+
+This string includes a ' character, so we need to use double quotes to escape that character. Using  single quotes the string would have ended at n resulting in an error message.

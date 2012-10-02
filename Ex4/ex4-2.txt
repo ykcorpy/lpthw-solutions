@@ -1,0 +1,21 @@
+floating-point number
+
+A real number (that is, a number that can contain a fractional part). The following are floating-point numbers:
+
+3.0
+
+-111.5
+
+½
+
+3E-5
+
+The last example is a computer shorthand for scientific notation. It means 3*10-5 (or 10 to the negative 5th power multiplied by 3).
+
+In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. The most popular code for representing real numbers is called the IEEE Floating-Point Standard .
+
+The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. There are also representations in which the number of digits before and after the decimal point is set, called fixed-point representations. In general, floating-point representations are slower and less accurate than fixed-point representations, but they can handle a larger range of numbers.
+
+Note that most floating-point numbers a computer can represent are just approximations. One of the challenges in programming with floating-point values is ensuring that the approximations lead to reasonable results. If the programmer is not careful, small discrepancies in the approximations can snowball to the point where the final results become meaningless.
+
+Because mathematics with floating-point numbers requires a great deal of computing power, many microprocessors come with a chip, called a floating point unit (FPU ), specialized for performing floating-point arithmetic. FPUs are also called math coprocessors and numeric coprocessors. 

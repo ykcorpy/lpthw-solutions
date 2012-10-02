@@ -1,0 +1,6 @@
+I used 4.0 for space_in_a_car, but is that necessary? What happens if it's just 4?
+
+
+In this case it is not necessary. If we had an average, we would sometimes need to make the average(passengers variable) come out as a float. One way of doing this is to be sure one of the inputs is a float.
+
+If it's just 4, the result will be an integer and not a floating point.

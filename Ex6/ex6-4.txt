@@ -1,0 +1,7 @@
+Explain why adding the two strings w and e with + makes a longer string.
+
+print w + e
+
+
+The expression above uses the "+" symbol as the concatenation operator to join 2 strings: "This is the left side of..."  +  "a string with a right side.", and has the value "This is the left side of...a string with a right side.".
+

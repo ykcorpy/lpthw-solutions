@@ -1,0 +1,9 @@
+To first understand  why the last line has '6\'2"' we first have to know what raw_input does.
+
+
+raw_input([prompt])
+
+    If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, EOFError is raised.
+    
+    
+If we enter the input: 6'2", raw_input converts it to a string. Since we use %r, the single-quote from our input needs to be escaped because otherwise it would end the string.

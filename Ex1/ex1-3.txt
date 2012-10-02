@@ -1,0 +1,4 @@
+'#'(octothorpe) is also called a 'pound', 'hash', 'mesh'.
+
+
+It's the comment character. It basically disables the line from then on so Python doesn't run it. Programmers use comments to write in English what a line of code does.
