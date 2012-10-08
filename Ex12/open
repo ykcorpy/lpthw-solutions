@@ -1,2 +1,0 @@
-Open a file using the file() type, returns a file object.
-This is the preferred way to open a file.
