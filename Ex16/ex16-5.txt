@@ -1,0 +1,4 @@
+If you open the file with 'w' mode, you don't need the target.truncate() because mode 'w' truncates the file if it already exists.
+
+http://docs.python.org/2/library/functions.html#open
+
