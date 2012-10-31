@@ -1,0 +1,5 @@
+* Mode 'w' truncates the file if it already exists. 
+* Open tries to be safe by making you explicitly say you want to write a file.                                                  
+
+
+http://docs.python.org/2/library/functions.html#open
