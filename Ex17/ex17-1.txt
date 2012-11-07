@@ -1,0 +1,5 @@
+http://docs.python.org/2/reference/simple_stmts.html#grammar-token-import_stmt
+
+
+Python Module Index:
+http://docs.python.org/2/py-modindex.html
